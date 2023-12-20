@@ -16,8 +16,4 @@ if (app.Environment.IsDevelopment())
 
 app.MapControllers();
 
-app.MapGet("/", () => {
-    return "The webApp is running";
-});
-
 app.Run();
